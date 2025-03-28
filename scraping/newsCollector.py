@@ -2,7 +2,7 @@ import requests
 from model import predict_news_category
 from db.retrival import save_in_es,get_breaking_news,del_old_news
 def news_collect():
-    url = ('https://newsapi.org/v2/top-headlines?country=us&apiKey=7b59c874a90b4fa6b37fa4e277ef8b0b')
+    url = ('https://newsapi.org/v2/top-headlines?country=us&apiKey=giveyour_api_key')
 
     response = requests.get(url)
 
